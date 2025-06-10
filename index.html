@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1 id="title">joshuaKruger Survey Form</h1>
+                <p id="description">
+                    Thank you for taking the time to help us improve the
+                    platform
+                </p>
+            </header>
+            <form id="survey-form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" />
+                </div>
+                <div>
+                    <label for="role"
+                        >Which option best describes your current role?</label
+                    >
+                    <input type="dropdown" name="role" id="role" />
+                </div>
+                <div>
+                    <p>Would you recommend software development to a friend?</p>
+                    <label>
+                        <input type="radio" name="user-recommend" />Definitly
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" />Maybe
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" />Not Sure
+                    </label>
+                </div>
+                <div>
+                    <p>
+                        What would you like to see improved?
+                        <span class="hints">(Check all that apply)</span>
+                    </p>
+                    <label for="">
+                        <input type="checkbox">
+                    </label>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
