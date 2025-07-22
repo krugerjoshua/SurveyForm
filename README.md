@@ -1,89 +1,76 @@
 # SurveyForm
-Build a Survey Form
-Objective
-Create a survey form that is functionally similar to this demo. Do not copy the demo project — make it your own with a unique style.
 
-User Stories
-To successfully complete this project, your survey form must meet the following requirements:
+# 📝 Survey Form Project
 
-The page must include a title inside an h1 element with the ID title.
+## 📋 Objective
 
-The page must include a short description inside a p element with the ID description.
+Build a survey form that is functionally similar to the [FreeCodeCamp Survey Form Demo](https://survey-form.freecodecamp.rocks).  
+**Do not copy** the demo. Put your own spin on it with custom styling and content.
 
-The form element must have an ID of survey-form.
+---
+
+## Requirements (User Stories)
+
+Your project must include the following elements:
+
+### Page Structure
+
+- A page title inside an `h1` with `id="title"`.
+- A short description inside a `p` with `id="description"`.
+- A `form` element with `id="survey-form"`.
+
+### Inputs
 
 Inside the form:
 
-There must be an input field for name:
+#### Name Input
+- `input` field for name
+  - `id="name"`
+  - `type="text"`
+  - `required`
+- A corresponding `label` with `id="name-label"`
+- Placeholder text included
 
-id="name"
+#### Email Input
+- `input` field for email
+  - `id="email"`
+  - `type="email"`
+  - `required`
+  - HTML5 validation for proper format
+- A corresponding `label` with `id="email-label"`
+- Placeholder text included
 
-type="text"
+#### Number Input
+- `input` field for number
+  - `id="number"`
+  - `type="number"`
+  - Accepts only numbers
+  - Includes `min` and `max` attributes
+- A corresponding `label` with `id="number-label"`
+- Placeholder text included
 
-Must be required
+#### Dropdown Menu
+- A `select` element with `id="dropdown"`
+- At least two `<option>` choices
 
-Accompanied by a label with id="name-label"
+#### Radio Buttons
+- Group of at least two `input type="radio"` elements
+- All radio buttons grouped with the same `name` attribute
 
-Includes placeholder text
+#### Checkboxes
+- Group of `input type="checkbox"` elements
+- Each checkbox must have a `value` attribute
 
-There must be an input field for email:
+#### Textarea
+- A `textarea` for additional comments
 
-id="email"
+#### Submit Button
+- A `button` with `id="submit"` to submit the form
 
-type="email"
+---
 
-Must be required
+## Usage
 
-Includes HTML5 validation for proper email format
-
-Accompanied by a label with id="email-label"
-
-Includes placeholder text
-
-There must be an input field for number:
-
-id="number"
-
-type="number"
-
-Must restrict non-numeric input (enforced via HTML5 validation)
-
-Must have min and max attributes to define an acceptable range
-
-Includes corresponding label with id="number-label"
-
-Includes placeholder text
-
-Include a select dropdown with:
-
-id="dropdown"
-
-At least two <option> choices
-
-Include a group of radio buttons:
-
-Minimum of two options
-
-Grouped using the same name attribute
-
-Include a group of checkboxes:
-
-Minimum of two options
-
-Each checkbox must have a value attribute
-
-Include a textarea for additional comments
-
-Include a submit button with:
-
-id="submit"
-
-Requirements
-All required fields must pass HTML5 form validation.
-
-All user stories listed above must be implemented.
-
-Apply your own styling to personalize the form.
-
-Final Notes
-Once all the requirements are met and your form passes the FreeCodeCamp test suite, your project is complete. Have fun and happy coding!
+1. Clone this repository or download the files.
+2. Open `index.html` in your browser to view the form.
+3. Customize the questions, placeholder text, and styling as desired.
