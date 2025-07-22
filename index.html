@@ -15,95 +15,97 @@
                     platform
                 </p>
             </header>
-            <form id="survey-form">
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" />
-                </div>
-                <div>
-                    <label for="age">Age</label>
-                    <input type="number" name="age" id="age" />
-                </div>
-                <div>
-                    <label for="role"
-                        >Which option best describes your current role?</label
-                    >
-                    <input type="dropdown" name="role" id="role" />
-                </div>
-                <div>
-                    <p>Would you recommend software development to a friend?</p>
-                    <label>
-                        <input type="radio" name="user-recommend" />Definitly
-                    </label>
-                    <label>
-                        <input type="radio" name="user-recommend" />Maybe
-                    </label>
-                    <label>
-                        <input type="radio" name="user-recommend" />Not Sure
-                    </label>
-                </div>
-                <div>
-                    <p>
-                        What would you like to see improved?
-                        <span class="hints">(Check all that apply)</span>
-                    </p>
-                    <label>
-                        <input type="checkbox">
-                        Front-end Projects
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Back-end Projects
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Data Visualization
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Challenges
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Open Source Community
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Gitter Help Rooms
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Videos
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        City Meetups
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Wiki
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Forum
-                    </label>
-                    <label>
-                        <input type="checkbox">
-                        Additional Courses
-                    </label>
-                </div>
-                <div>
-                    <p>Any comments or suggestions?</p>
-                    <textarea name="comment" id="comments"></textarea>
-                </div>
-                <div>
-                    <button type="submit" id="submit">Submit</button>
-                </div>
-            </form>
+            <div class="form-wrapper">
+                <form id="survey-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" />
+                    </div>
+                    <div>
+                        <label for="role"
+                            >Which option best describes your current role?</label
+                        >
+                        <input type="dropdown" name="role" id="role" />
+                    </div>
+                    <div>
+                        <p>Would you recommend software development to a friend?</p>
+                        <label>
+                            <input class="inline" type="radio" name="user-recommend" />Definitly
+                        </label>
+                        <label>
+                            <input class="inline" type="radio" name="user-recommend" />Maybe
+                        </label>
+                        <label>
+                            <input class="inline" type="radio" name="user-recommend" />Not Sure
+                        </label>
+                    </div>
+                    <div>
+                        <p>
+                            What would you like to see improved?
+                            <span class="hints">(Check all that apply)</span>
+                        </p>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Front-end Projects
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Back-end Projects
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Data Visualization
+                        </label>
+                        <label> 
+                            <input class="inline" type="checkbox">
+                            Challenges
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Open Source Community
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Gitter Help Rooms
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Videos
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            City Meetups
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Wiki
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Forum
+                        </label>
+                        <label>
+                            <input class="inline" type="checkbox">
+                            Additional Courses
+                        </label>
+                    </div>
+                    <div>
+                        <p>Any comments or suggestions?</p>
+                        <textarea name="comment" id="comments"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 </html>
